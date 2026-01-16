@@ -2,10 +2,10 @@
 #include <string.h>
 
 int main(void){
-    char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    printf("%zu",strlen(alphabet)); // თუ გვინდა რომ გავიგოთ ჩვენი სტრინგის სიგრე ანუ length ვიყენებთ strlen ფუნქციას //
-    printf("%zu",sizeof(alphabet)); // sizeof ოპერატორით გავიგებთ რამდენი ბაიტი უჭირავს მეხსიერებაში ჩვენს სტრინგის   //
-
+    char fullName[30];
+    printf("write your name: \n");
+    fgets(fullName,sizeof(fullName), stdin);
     return 0;
+
 
 }   
